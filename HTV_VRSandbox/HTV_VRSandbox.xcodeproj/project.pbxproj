@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5F1DD4E1D0AFA9B00861E8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F1DD4D1D0AFA9B00861E8C /* main.m */; };
+		B5F1DD511D0AFA9B00861E8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F1DD501D0AFA9B00861E8C /* AppDelegate.m */; };
+		B5F1DD541D0AFA9B00861E8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F1DD531D0AFA9B00861E8C /* ViewController.m */; };
+		B5F1DD571D0AFA9B00861E8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F1DD551D0AFA9B00861E8C /* Main.storyboard */; };
+		B5F1DD5A1D0AFA9B00861E8C /* HTV_VRSandbox.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5F1DD581D0AFA9B00861E8C /* HTV_VRSandbox.xcdatamodeld */; };
+		B5F1DD5C1D0AFA9B00861E8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5F1DD5B1D0AFA9B00861E8C /* Assets.xcassets */; };
+		B5F1DD5F1D0AFA9B00861E8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5F1DD5D1D0AFA9B00861E8C /* LaunchScreen.storyboard */; };
+		B5F1DD6A1D0AFA9B00861E8C /* HTV_VRSandboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F1DD691D0AFA9B00861E8C /* HTV_VRSandboxTests.m */; };
+		B5F1DD751D0AFA9B00861E8C /* HTV_VRSandboxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F1DD741D0AFA9B00861E8C /* HTV_VRSandboxUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5F1DD661D0AFA9B00861E8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5F1DD411D0AFA9B00861E8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5F1DD481D0AFA9B00861E8C;
+			remoteInfo = HTV_VRSandbox;
+		};
+		B5F1DD711D0AFA9B00861E8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5F1DD411D0AFA9B00861E8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5F1DD481D0AFA9B00861E8C;
+			remoteInfo = HTV_VRSandbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5F1DD491D0AFA9B00861E8C /* HTV_VRSandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTV_VRSandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F1DD4D1D0AFA9B00861E8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5F1DD4F1D0AFA9B00861E8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5F1DD501D0AFA9B00861E8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5F1DD521D0AFA9B00861E8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B5F1DD531D0AFA9B00861E8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5F1DD561D0AFA9B00861E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5F1DD591D0AFA9B00861E8C /* HTV_VRSandbox.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HTV_VRSandbox.xcdatamodel; sourceTree = "<group>"; };
+		B5F1DD5B1D0AFA9B00861E8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5F1DD5E1D0AFA9B00861E8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5F1DD601D0AFA9B00861E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F1DD651D0AFA9B00861E8C /* HTV_VRSandboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTV_VRSandboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F1DD691D0AFA9B00861E8C /* HTV_VRSandboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTV_VRSandboxTests.m; sourceTree = "<group>"; };
+		B5F1DD6B1D0AFA9B00861E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5F1DD701D0AFA9B00861E8C /* HTV_VRSandboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTV_VRSandboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F1DD741D0AFA9B00861E8C /* HTV_VRSandboxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTV_VRSandboxUITests.m; sourceTree = "<group>"; };
+		B5F1DD761D0AFA9B00861E8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5F1DD461D0AFA9B00861E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F1DD621D0AFA9B00861E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F1DD6D1D0AFA9B00861E8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5F1DD401D0AFA9B00861E8C = {
+			isa = PBXGroup;
+			children = (
+				B5F1DD4B1D0AFA9B00861E8C /* HTV_VRSandbox */,
+				B5F1DD681D0AFA9B00861E8C /* HTV_VRSandboxTests */,
+				B5F1DD731D0AFA9B00861E8C /* HTV_VRSandboxUITests */,
+				B5F1DD4A1D0AFA9B00861E8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5F1DD4A1D0AFA9B00861E8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5F1DD491D0AFA9B00861E8C /* HTV_VRSandbox.app */,
+				B5F1DD651D0AFA9B00861E8C /* HTV_VRSandboxTests.xctest */,
+				B5F1DD701D0AFA9B00861E8C /* HTV_VRSandboxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5F1DD4B1D0AFA9B00861E8C /* HTV_VRSandbox */ = {
+			isa = PBXGroup;
+			children = (
+				B5F1DD4F1D0AFA9B00861E8C /* AppDelegate.h */,
+				B5F1DD501D0AFA9B00861E8C /* AppDelegate.m */,
+				B5F1DD521D0AFA9B00861E8C /* ViewController.h */,
+				B5F1DD531D0AFA9B00861E8C /* ViewController.m */,
+				B5F1DD551D0AFA9B00861E8C /* Main.storyboard */,
+				B5F1DD5B1D0AFA9B00861E8C /* Assets.xcassets */,
+				B5F1DD5D1D0AFA9B00861E8C /* LaunchScreen.storyboard */,
+				B5F1DD601D0AFA9B00861E8C /* Info.plist */,
+				B5F1DD581D0AFA9B00861E8C /* HTV_VRSandbox.xcdatamodeld */,
+				B5F1DD4C1D0AFA9B00861E8C /* Supporting Files */,
+			);
+			path = HTV_VRSandbox;
+			sourceTree = "<group>";
+		};
+		B5F1DD4C1D0AFA9B00861E8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5F1DD4D1D0AFA9B00861E8C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5F1DD681D0AFA9B00861E8C /* HTV_VRSandboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5F1DD691D0AFA9B00861E8C /* HTV_VRSandboxTests.m */,
+				B5F1DD6B1D0AFA9B00861E8C /* Info.plist */,
+			);
+			path = HTV_VRSandboxTests;
+			sourceTree = "<group>";
+		};
+		B5F1DD731D0AFA9B00861E8C /* HTV_VRSandboxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5F1DD741D0AFA9B00861E8C /* HTV_VRSandboxUITests.m */,
+				B5F1DD761D0AFA9B00861E8C /* Info.plist */,
+			);
+			path = HTV_VRSandboxUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5F1DD481D0AFA9B00861E8C /* HTV_VRSandbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F1DD791D0AFA9B00861E8C /* Build configuration list for PBXNativeTarget "HTV_VRSandbox" */;
+			buildPhases = (
+				B5F1DD451D0AFA9B00861E8C /* Sources */,
+				B5F1DD461D0AFA9B00861E8C /* Frameworks */,
+				B5F1DD471D0AFA9B00861E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTV_VRSandbox;
+			productName = HTV_VRSandbox;
+			productReference = B5F1DD491D0AFA9B00861E8C /* HTV_VRSandbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5F1DD641D0AFA9B00861E8C /* HTV_VRSandboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F1DD7C1D0AFA9B00861E8C /* Build configuration list for PBXNativeTarget "HTV_VRSandboxTests" */;
+			buildPhases = (
+				B5F1DD611D0AFA9B00861E8C /* Sources */,
+				B5F1DD621D0AFA9B00861E8C /* Frameworks */,
+				B5F1DD631D0AFA9B00861E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5F1DD671D0AFA9B00861E8C /* PBXTargetDependency */,
+			);
+			name = HTV_VRSandboxTests;
+			productName = HTV_VRSandboxTests;
+			productReference = B5F1DD651D0AFA9B00861E8C /* HTV_VRSandboxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5F1DD6F1D0AFA9B00861E8C /* HTV_VRSandboxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5F1DD7F1D0AFA9B00861E8C /* Build configuration list for PBXNativeTarget "HTV_VRSandboxUITests" */;
+			buildPhases = (
+				B5F1DD6C1D0AFA9B00861E8C /* Sources */,
+				B5F1DD6D1D0AFA9B00861E8C /* Frameworks */,
+				B5F1DD6E1D0AFA9B00861E8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5F1DD721D0AFA9B00861E8C /* PBXTargetDependency */,
+			);
+			name = HTV_VRSandboxUITests;
+			productName = HTV_VRSandboxUITests;
+			productReference = B5F1DD701D0AFA9B00861E8C /* HTV_VRSandboxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5F1DD411D0AFA9B00861E8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kevin Tarr";
+				TargetAttributes = {
+					B5F1DD481D0AFA9B00861E8C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B5F1DD641D0AFA9B00861E8C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B5F1DD481D0AFA9B00861E8C;
+					};
+					B5F1DD6F1D0AFA9B00861E8C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B5F1DD481D0AFA9B00861E8C;
+					};
+				};
+			};
+			buildConfigurationList = B5F1DD441D0AFA9B00861E8C /* Build configuration list for PBXProject "HTV_VRSandbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5F1DD401D0AFA9B00861E8C;
+			productRefGroup = B5F1DD4A1D0AFA9B00861E8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5F1DD481D0AFA9B00861E8C /* HTV_VRSandbox */,
+				B5F1DD641D0AFA9B00861E8C /* HTV_VRSandboxTests */,
+				B5F1DD6F1D0AFA9B00861E8C /* HTV_VRSandboxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5F1DD471D0AFA9B00861E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F1DD5F1D0AFA9B00861E8C /* LaunchScreen.storyboard in Resources */,
+				B5F1DD5C1D0AFA9B00861E8C /* Assets.xcassets in Resources */,
+				B5F1DD571D0AFA9B00861E8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F1DD631D0AFA9B00861E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F1DD6E1D0AFA9B00861E8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5F1DD451D0AFA9B00861E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F1DD541D0AFA9B00861E8C /* ViewController.m in Sources */,
+				B5F1DD511D0AFA9B00861E8C /* AppDelegate.m in Sources */,
+				B5F1DD5A1D0AFA9B00861E8C /* HTV_VRSandbox.xcdatamodeld in Sources */,
+				B5F1DD4E1D0AFA9B00861E8C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F1DD611D0AFA9B00861E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F1DD6A1D0AFA9B00861E8C /* HTV_VRSandboxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5F1DD6C1D0AFA9B00861E8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F1DD751D0AFA9B00861E8C /* HTV_VRSandboxUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5F1DD671D0AFA9B00861E8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5F1DD481D0AFA9B00861E8C /* HTV_VRSandbox */;
+			targetProxy = B5F1DD661D0AFA9B00861E8C /* PBXContainerItemProxy */;
+		};
+		B5F1DD721D0AFA9B00861E8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5F1DD481D0AFA9B00861E8C /* HTV_VRSandbox */;
+			targetProxy = B5F1DD711D0AFA9B00861E8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5F1DD551D0AFA9B00861E8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F1DD561D0AFA9B00861E8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5F1DD5D1D0AFA9B00861E8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5F1DD5E1D0AFA9B00861E8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5F1DD771D0AFA9B00861E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5F1DD781D0AFA9B00861E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5F1DD7A1D0AFA9B00861E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HTV_VRSandbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NerdInventions.HTV-VRSandbox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5F1DD7B1D0AFA9B00861E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HTV_VRSandbox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NerdInventions.HTV-VRSandbox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B5F1DD7D1D0AFA9B00861E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HTV_VRSandboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NerdInventions.HTV-VRSandboxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTV_VRSandbox.app/HTV_VRSandbox";
+			};
+			name = Debug;
+		};
+		B5F1DD7E1D0AFA9B00861E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HTV_VRSandboxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NerdInventions.HTV-VRSandboxTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HTV_VRSandbox.app/HTV_VRSandbox";
+			};
+			name = Release;
+		};
+		B5F1DD801D0AFA9B00861E8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HTV_VRSandboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NerdInventions.HTV-VRSandboxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HTV_VRSandbox;
+			};
+			name = Debug;
+		};
+		B5F1DD811D0AFA9B00861E8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HTV_VRSandboxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NerdInventions.HTV-VRSandboxUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HTV_VRSandbox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5F1DD441D0AFA9B00861E8C /* Build configuration list for PBXProject "HTV_VRSandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F1DD771D0AFA9B00861E8C /* Debug */,
+				B5F1DD781D0AFA9B00861E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5F1DD791D0AFA9B00861E8C /* Build configuration list for PBXNativeTarget "HTV_VRSandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F1DD7A1D0AFA9B00861E8C /* Debug */,
+				B5F1DD7B1D0AFA9B00861E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5F1DD7C1D0AFA9B00861E8C /* Build configuration list for PBXNativeTarget "HTV_VRSandboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F1DD7D1D0AFA9B00861E8C /* Debug */,
+				B5F1DD7E1D0AFA9B00861E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B5F1DD7F1D0AFA9B00861E8C /* Build configuration list for PBXNativeTarget "HTV_VRSandboxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5F1DD801D0AFA9B00861E8C /* Debug */,
+				B5F1DD811D0AFA9B00861E8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B5F1DD581D0AFA9B00861E8C /* HTV_VRSandbox.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B5F1DD591D0AFA9B00861E8C /* HTV_VRSandbox.xcdatamodel */,
+			);
+			currentVersion = B5F1DD591D0AFA9B00861E8C /* HTV_VRSandbox.xcdatamodel */;
+			path = HTV_VRSandbox.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B5F1DD411D0AFA9B00861E8C /* Project object */;
+}
